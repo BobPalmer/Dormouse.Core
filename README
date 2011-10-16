@@ -1,0 +1,39 @@
+Dormouse is based on a series of internal frameworks and toolkits I use for my own projects based on NHibernate.
+
+Dormouse.Core includes basic tools for setting up a repository and performing a lot of basic database operations, including:
+
+- Session Factory setup
+- Session management
+- Repository base classes (empty, CRUD, and CRUD+Search)
+- Basic CRUD and search operations already stubbed out using generics
+- Unit tests (using SQLite in-memory database)
+
+Hello world example:
+
+1.  Add a reference to Dormouse.Core.Dll
+2.  Set up your NHibernate app.config, mapping files, and POCO classes (see the unit tests for an example)
+3.  Create a basic CRUD repository (starting with an interface since we need this for testing.  You do test, right?)
+
+    public interface IBookRepository : IRepositoryCRUD<MyPOCOType>
+    {
+		//Add any extra methods you want for your repository - Add/Edit/Get/Delete are already included!
+    }
+
+4.  Create your concrete reposotory	
+
+	public class BookRepository : RepositoryCRUD<Book, int>, IBookRepository
+    {
+		//Implement any extra methods you added above
+    }
+	
+5.  New it up and use it!
+
+	public void example()
+	{
+		var repo = new BookRepository();
+        var b = new Book { Title = "The Silmarillion" };
+		repo.Create(b);
+		b = _repo.Get(32768);
+		repo.Delete(b);
+	}
+	
