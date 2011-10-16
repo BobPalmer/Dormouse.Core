@@ -8,7 +8,7 @@ Dormouse.Core includes basic tools for setting up a repository and performing a 
 - Basic CRUD and search operations already stubbed out using generics
 - Unit tests (using SQLite in-memory database)
 
-Hello world example:
+Hello world example (Assuming you have downloaded and built from source):
 
 1.  Add a reference to Dormouse.Core.Dll
 2.  Set up your NHibernate app.config, mapping files, and POCO classes (see the unit tests for an example)

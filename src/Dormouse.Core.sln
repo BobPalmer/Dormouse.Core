@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormouse.Core", "Dormouse.Core\Dormouse.Core.csproj", "{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormouse.Core.Tests", "Dormouse.Tests\Dormouse.Core.Tests.csproj", "{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A14A5CA1-8AB6-451B-AD7B-ABE327BA180A}"
+	ProjectSection(SolutionItems) = preProject
+		Dormouse.vsmdi = Dormouse.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormouse.Core.TestData", "Dormouse.TestData\Dormouse.Core.TestData.csproj", "{04D56E54-199B-40DB-A6EF-F9202D5DED84}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Dormouse.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Itanium = Debug|Itanium
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Itanium = Release|Itanium
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Debug|Itanium.ActiveCfg = Debug|Any CPU
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Debug|x86.ActiveCfg = Debug|x86
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Debug|x86.Build.0 = Debug|x86
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Release|Itanium.ActiveCfg = Release|Any CPU
+		{F02A6C84-EEEC-48EF-B769-CB6925C1E9CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Debug|Itanium.ActiveCfg = Debug|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Debug|x86.ActiveCfg = Debug|x86
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Debug|x86.Build.0 = Debug|x86
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Release|Itanium.ActiveCfg = Release|Any CPU
+		{B55FCCA5-5735-4A7B-8A5D-CDA303CF4BEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Debug|Itanium.ActiveCfg = Debug|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Debug|x86.ActiveCfg = Debug|x86
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Debug|x86.Build.0 = Debug|x86
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Release|Itanium.ActiveCfg = Release|Any CPU
+		{04D56E54-199B-40DB-A6EF-F9202D5DED84}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
